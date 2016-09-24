@@ -221,6 +221,25 @@ header {
 	color: #555;
 }
 
+/* Hero
+=================================================================== */
+#hero .background {
+    background: url(../img/bg_hero.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+	margin-bottom: 50px;
+}
+
+#hero .background .content {
+	padding-top: 80px;
+}
+
+#hero .background .content img {
+	width: 400px;
+}
+
 /* Flexslider
 =================================================================== */
 
