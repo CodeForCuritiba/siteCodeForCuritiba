@@ -1,0 +1,96 @@
+.boddy {
+	margin: 0;
+}
+
+.header-logo img {
+	width: 70%;
+
+}
+
+.header-logo {
+
+	margin-top: 5%;
+	margin-bottom: 20%;
+}
+.hackers-do-bem h1{
+
+font-size: 102px;
+margin-left: 28%;
+margin-top: 3%; 
+margin-bottom: 3%;
+color: #8DC540;	
+font-weight: 300;
+
+}
+
+.sobre-text img{
+	width: 60%;
+}
+
+.sobre-text  {
+	font-weight: 600;
+}
+
+
+.hackers-do-bem span{
+	color: #E91B20;
+}
+.verde img{
+	width: 100%;
+}
+
+.fundo {
+
+	background-image: url(verde.jpg);
+	width: 100%;
+	height: 20%;
+}
+
+
+#base-meio {
+	width: 100%;
+	height: 20%;
+	background: #fcfcfc url(../img/verde.jpg) repeat;
+	margin-top: 0%; 
+}
+#base-meio h2 {
+	display: inline-block;
+	font-family: "calibri" !important;
+	color: #fff;
+	padding: 10px 20px 5px 20px;
+	font-size: 20px;
+}
+#base-baixo {
+	width: 100%;
+	height: 20%;
+	background: #565656;
+
+	margin-top: 0%; 
+}
+
+.participe h1{
+
+font-size: 102px;
+font-family: "verdana" !important;
+
+margin-left: 28%;
+margin-top: 3%; 
+color: #8DC540;	
+font-weight: 300;
+
+}
+.participe span{
+	color: #E91B20;
+}
+.participe2 h1{
+
+font-size: 102px;
+font-family: "verdana" !important;
+
+margin-left: 28.55%;
+margin-top: 3%; 
+margin-bottom: 2%;
+color: #8DC540;	
+font-weight: 300;
+
+}
