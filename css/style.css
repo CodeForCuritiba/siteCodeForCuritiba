@@ -38,12 +38,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title {
-	border-bottom: 3px double #f6f6f6;
+/*	border-bottom: 3px double #f6f6f6; */
 	margin-bottom: 10px;
 }
 
 .title h1, .title h2, .title h3, .title h4, .title h5, .title h6 {
-	border-bottom: 5px double #89c236 !important;
+/*	border-bottom: 5px double #89c236 !important; */
 	margin-bottom: -4px !important;
 	display: inline-block !important;
 	padding: 0px 10px !important;
@@ -238,6 +238,16 @@ header {
 
 #hero .background .content img {
 	width: 350px;
+}
+
+/* Indroduction
+=================================================================== */
+
+#introduction {
+    text-align: justify;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1px;
 }
 
 /* Flexslider
