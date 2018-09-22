@@ -1286,7 +1286,7 @@ form#newsletter input[type=submit] {
 
 #copyright p {
 	margin: 0 auto;
-	width: 380px;
+	width: 100%;
 	text-align: center;
 	color: #666;
 }
