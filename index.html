@@ -1,263 +1,223 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 
 <head>
-    <meta charset="utf-8">
-    <title>Code for Curitiba - Uma Brigada do Code for Brazil</title>
-    <meta name="description" content="Code for Curitiba - Hackativismo" />
-    <meta name="keywords" content="hackativismo, inovacao, civico, tecnologia, comunidade, desenvolvimento, hack" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/especial.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">
-    <!-- end: CSS -->
+  <meta charset="utf-8">
+  <title>Code for Curitiba - Uma Brigada do Code for Brazil</title>
+  <meta name="description" content="Code for Curitiba - Hackativismo" />
+  <meta name="keywords" content="hackativismo, inovacao, civico, tecnologia, comunidade, desenvolvimento, hack" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+  <!-- Bootstrap CDN -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+
+  <!-- Bootstrap local (caso você fique offline) -->
+  <link rel="stylesheet" href="css/bootstrap-4.1.3.min.css">
+
+  <link href="css/main.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
 
 </head>
 
-<body>
+<body id="top">
+  <a class="sr-only sr-only-focusable" href="#main-content">Pular para o conteúdo principal</a>
+  <a class="sr-only sr-only-focusable" href="#main-menu">Pular para o menu</a>
 
-    <header id="#top">
-        <div class="container">
-            <div class="row">
-                <div class="logo span3">
-                    <a class="brand" href="#"><img src="img/logos/code.png" width="100" alt="Code Logo"></a>
-                </div>
-                <div class="span9">
-                    <div class="navbar navbar-inverse">
-                        <div class="navbar-inner">
-                            <div class="nav-collapse collapse">
-                                <ul class="nav">
-                                    <li class="active"><a href="#top">Início</a></li>
-                                    <li><a href="#sobre">Sobre</a></li>
-                                    <li><a href="#participe">Participe</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <nav class="navbar navbar-expand-md p-0 bg-white border-bottom">
+    <div class="container d-md-flex">
+      <a class="navbar-brand flex-grow-1" href="#">
+        <img src="img/logos/code-100x48.png" width="100" height="48" alt="Code Logo">
+        <span class="sr-only">Logo do Code for Curitiba</span>
+      </a>
+
+      <!-- Bottão de alternar o menu (aparece apenas no mobile) -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false"
+        aria-label="Toggle navigation">
+        Menu
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div id="main-menu" class="collapse navbar-collapse justify-content-md-end">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#top">Início <span class="sr-only">(página atual)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#participe">Participe</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main-content">
+    <section class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <img class="img-fluid" aria-hidden="true" src="img/bg_hero-960x471.jpg" alt="image de fundo do code for curtiba">
+          <div class="call-to-action">
+            <a href="#saiba-mais" class="btn btn-outline-primary">Saiba Mais</a>
+          </div>
         </div>
-    </header>
-    <section class="wrapper" id="hero">
-        <div class="container">
-            <div class="col-lg-12 text-center background">
-                <div align="center" class="content">
-                    <button type="button" class="btn btn-success">Saiba Mais</button>
-                </div>
-            </div>
-        </div>
+      </div>
     </section>
-    <div class="wrapper" id="sobre">
-        <div class="container">
+
+    <section id="sobre">
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-md-7 text-right">
+            <h1 class="display-1 text-primary ff-boogalo">Hackers<br>do <span class="text-secondary">bem</span></h1>
             <div class="row">
-                <div class="span8">
-                    <div class="sobre">
-                        <div class="hackers-do-bem">
-                            <h1>Hackers</h1> <br>
-                            <h1>do <span>bem</span></h1>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="span2">
-                        </div>
-                        <div class="span3">
-                            <div class="icons-box">
-                                <img src="img/HANDS.jpg" width="200" alt="Mão no teclado">
-                                <div class="col-lg-12 text-center">
-                                    <div class="title">
-                                        <h3>Empoderamento do Cidadão</h3>
-                                    </div>
-                                </div>
-                                <div class="clear"></div>
-                            </div>
-                        </div>
-                        <div class="span3">
-                            <div class="icons-box">
-                                <img src="img/BUS.jpg" width="200" alt="Onibus Curitiba">
-                                <div class="col-lg-12 text-center">
-                                    <div class="title">
-                                        <h3>Inovação Cívica</h3>
-                                    </div>
-                                </div>
-                                <div class="clear"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="span4" id="introduction">
-                    <p>
-                        O Code for America nasceu como uma rede de pessoas que aliam o melhor da tecnologia e do design
-                        para melhorar serviços prestados pelo governo.
-                    </p>
-                    <p>
-                        O Code for Curitiba, seguindo a iniciativa norteamericana, acredita que uma democracia saudável
-                        é aquela em que o governo e as pessoas se juntam para melhorar sua comunidade.
-                    </p>
-                    <p>
-                        Somos cidadãos apaixonados e competentes que trabalham com o governo para desenvolver soluções
-                        baseadas na tecnologia que resolvem problemas cívicos. Através do nosso trabalho, acreditamos
-                        que podemos promover a colaboração e transparência, acelerar o crescimento econômico e reanimar
-                        a cidadania.
-                    </p>
-                    <p>
-                        Já imaginou uma situação na qual desenvolvedores, designers e outros profissionais trabalham
-                        para tornar serviços públicos mais simples, fáceis e acessíveis? Isso é o Code for Curitiba,
-                        ator local de inovação cívica aberta.
-                    </p>
-                </div>
+              <div class="col-6">
+                <figure>
+                  <img class="img-fluid" src="img/HANDS.jpg" width="200" alt="Mão no teclado">
+                  <figcaption class="ff-boogalo">Empoderamento do Cidadão</figcaption>
+                </figure>
+              </div>
+              <div class="col-6">
+                <figure>
+                  <img class="img-fluid" src="img/BUS.jpg" width="200" alt="Onibus Curitiba">
+                  <figcaption class="ff-boogalo">Inovação Cívica</figcaption>
+                </figure>
+              </div>
             </div>
-        </div>
-        <div class="wrapper">
-            <div id="base-meio">
-                <div class="container">
-                    <div class="row">
-                        <div class="span8">
-                            <h2 align="right" style="font-size: 17px;">
-                                Em um ambiente colaborativo, mentes avidas por trocar ideias e fazer a diferença <br />
-                                você irá encontrar os Hacker Ativistas mais irados da cidade, <br />
-                                prontos para ouvir seus problemas e suas ideias <br />
-                                e trabalharem junto com você para encontrar uma solução, <br />
-                                opensource, tecnológica e prática, voltada para a comunidade e todos os interessados.
-                            </h2>
-                        </div>
-                        <div class="span4">
-                            <h2 align="left">
-                                #civictech #inovation<br>
-                                #opengov #startups<br>
-                                #api #bigdata #coding<br>
-                                #safeplace #diversidade<br>
-                                <br>
-                                #CodeForAmerica #OpenBrazil<br>
-                            </h2>
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="base-baixo">
-                <div class="container">
-                    <div class="row">
-                        <div class="span8">
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-
-                        </div>
-                        <div class="span4">
-
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="wrapper" id="participe">
-                <div class="container">
-                    <div class="row">
-                        <div class="span12">
-                            <div class="sobre">
-                                <div class="container">
-                                <div class="participe">
-                                <h1><span>participe</span></h1> <br>
-                                </div>
-                                <div class="participe2">
-                                <h1>do code</h1>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="wrapper"><br>
-        <div class="container">
-            <div class="row">
-                <div class="span4">
-                    <div class="icons-box">
-                        <img src="img/slack.jpg" width="100%" alt="slack">
-                        <p align="justify">
-                            <br>
-                            Quer uma cidade com melhor serviços ao cidadão <br>
-                            Quer encontrar novas pessoas e fazer a diferença <br>
-                            Quer aprender novas coisas e interessar recrutadores <br>
-                            Entre na nossa plataforma de comunicação
-                        </p>
-                        <div class="clear"></div>
-                        <div class="col-ls-12">
-                            <a href="https://codeforcuritiba-invite.herokuapp.com/" target="_blank" class='btn btn-success'>PARTICIPAR
-                                DO CODE</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="span4">
-                    <div class="icons-box">
-                        <img src="img/meetup.png" width="100%" alt="meetup">
-                        <p align="justify">
-                            <br>Hacknights, hackdays, hackathons, workshops, palestras, ... encontre todos nossos
-                            eventos no nosso Meet-Up<br><br><br>
-                        </p>
-                        <div class="clear"></div>
-                        <div class="col-ls-12">
-                            <a href="http://www.meetup.com/pt-BR/OpenBrazil" target="_blank" class='btn btn-success'>VER
-                                OS ENCONTROS</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="span4">
-                    <div class="icons-box">
-                        <img src="img/git.jpg" width="100%" alt="github">
-                        <p align="justify">
-                            <br />
-                            Trabalhamos com Dados abertos<br />
-                            Trabalhamos com Software aberto<br />
-                            Consequentemente estamos no Github, a plataforma mundial dos projetos abertos.
-                            <br />
-                            <br />
-                        </p>
-                        <div class="clear"></div>
-                        <div class="col-ls-12">
-                            <a href="http://github.com/CodeForCuritiba" target="_blank" class='btn btn-success'>VER OS
-                                PROJETOS</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="copyright">
-        <div class="container">
+          </div>
+          <div class="col-md-5 ff-droid">
             <p>
-                &copy;
-                <script>document.write(new Date().getFullYear())</script>, <a href="#">Code for Curitiba</a>. Direitos
-                Reservados
+              O Code for America nasceu como uma rede de pessoas que aliam o melhor da tecnologia e do design para melhorar serviços prestados
+              pelo governo.
             </p>
+            <p>
+              O Code for Curitiba, seguindo a iniciativa norteamericana, acredita que uma democracia saudável é aquela em que o governo
+              e as pessoas se juntam para melhorar sua comunidade.
+            </p>
+            <p>
+              Somos cidadãos apaixonados e competentes que trabalham com o governo para desenvolver soluções baseadas na tecnologia que
+              resolvem problemas cívicos. Através do nosso trabalho, acreditamos que podemos promover a colaboração e transparência,
+              acelerar o crescimento econômico e reanimar a cidadania.
+            </p>
+            <p>
+              Já imaginou uma situação na qual desenvolvedores, designers e outros profissionais trabalham para tornar serviços públicos
+              mais simples, fáceis e acessíveis? Isso é o Code for Curitiba, ator local de inovação cívica aberta.
+            </p>
+          </div>
         </div>
-        <div class="span1">
-            <div id="footer-menu-back-to-top">
-                <a href="#"></a>
-            </div>
+      </div>
+    </section>
+
+    <section id="nuvem-de-tags" class="bg-primary text-white">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-sm-8">
+            <p class="text-right lh-2">
+              Em um ambiente colaborativo, mentes avidas por trocar ideias e fazer a diferença <br /> você irá encontrar
+              os Hacker Ativistas mais irados da cidade, <br/> prontos para ouvir seus problemas e suas ideias <br/> e trabalharem
+              junto com você para encontrar uma solução, <br /> opensource, tecnológica e prática, voltada para a comunidade
+              e todos os interessados.
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <p class="h5 lh-2">
+              #civictech #inovation<br> #opengov #startups<br> #api #bigdata #coding<br> #safeplace #diversidade<br>
+              <br> #CodeForAmerica #OpenBrazil<br>
+            </p>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <!-- Section deixada em branco propositalmente -->
+    <section id="space" class="bg-secondary" aria-hidden="true">
+      <div class="container py-5">
+        <div class="row py-3">
+          <span>&nbsp;</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="participe" class="container">
+      <div class="row mt-4">
+        <div class="col-12 text-center">
+          <h2 class="display-4"><span class="text-secondary">Participe</span><br><span class="text-primary">do code</span></h2>
+        </div>
+      </div>
+      <div class="row my-3">
+        <div class="col-md-4">
+          <div class="p-3">
+            <img class="img-fluid w-100 mb-2" src="img/slack-300x166.jpg" width="300" alt="logo do Slack app">
+            <p class="ff-droid text-justify">
+              Quer uma cidade com melhor serviços ao cidadão?
+              <br>Quer encontrar novas pessoas e fazer a diferença?
+              <br>Quer aprender novas coisas e interessar recrutadores?
+              <br>Entre na nossa plataforma de comunicação!
+            </p>
+            <p class="text-center">
+              <a href="https://codeforcuritiba-invite.herokuapp.com/" target="_blank" rel="noopener" class="btn btn-outline-primary rounded-0">PARTICIPAR
+                DO CODE</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-3">
+            <img class="img-fluid w-100 mb-2" src="img/meetup-300x166.png" width="300" alt="meetup">
+            <p class="ff-droid text-justify">
+              Hacknights, hackdays, hackathons, workshops, palestras, ... encontre todos nossos eventos no nosso Meet-Up<br><br><br>
+            </p>
+            <p class="text-center">
+              <a href="http://www.meetup.com/pt-BR/OpenBrazil" target="_blank" rel="noopener" class="btn btn-outline-primary rounded-0">VER
+                OS ENCONTROS</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-3">
+            <img class="img-fluid w-100 mb-2" src="img/git.jpg" width="300" alt="github">
+            <p class="ff-droid text-justify">
+              Trabalhamos com Dados abertos<br/> Trabalhamos com Software aberto<br/> Consequentemente estamos no Github,
+              a plataforma mundial dos projetos abertos.
+            </p>
+            <p class="text-center">
+              <a href="http://github.com/CodeForCuritiba" target="_blank" rel="noopener" class="btn btn-outline-primary rounded-0">VER
+                OS PROJETOS</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="copyright">
+    <div class="container">
+      <p class="text-center ff-droid">
+        &copy;
+        <script>document.write(new Date().getFullYear())</script>, <a href="#">Code for Curitiba</a>. Direitos Reservados
+      </p>
+      <a id="to-top" href="#top">
+        <div class="sr-only">Voltar para o topo</div>
+      </a>
     </div>
-    <script src="js/jquery-1.8.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script defer="defer" src="js/custom.js"></script>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script> -->
+  <script>
+    // precisamos do jQuery? (alguma imcompatibilidade?)
+    document.querySelector('.navbar-toggler').addEventListener('click', function () {
+      document.querySelector('#main-menu').classList.toggle('show')
+    })
+  </script>
 </body>
+
 </html>

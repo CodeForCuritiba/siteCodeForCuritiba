@@ -1,5 +1,11 @@
-.boddy {
-	margin: 0;
+.hackers-do-bem h1 {
+	/* text-align: right; */
+	/* font-size: 102px; */
+	/* margin-left: 28%; */
+	/* margin-top: 3%;  */
+	/* margin-bottom: 3%; */
+	color: #8DC540;	
+	/* font-weight: 300; */
 }
 
 .header-logo img {
@@ -38,20 +44,13 @@
 	width: 100%;
 }
 
-.fundo {
-
-	background-image: url(verde.jpg);
-	width: 100%;
-	height: 20%;
-}
-
-
 #base-meio {
 	width: 100%;
 	height: 20%;
 	background: #fcfcfc url(../img/verde.jpg) repeat;
 	margin-top: 0%; 
 }
+
 #base-meio h2 {
 	display: inline-block;
 	font-family: "calibri" !important;
@@ -59,6 +58,7 @@
 	padding: 10px 20px 5px 20px;
 	font-size: 20px;
 }
+
 #base-baixo {
 	width: 100%;
 	height: 20%;

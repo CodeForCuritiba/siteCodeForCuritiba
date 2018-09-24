@@ -1,0 +1,108 @@
+/* Code for Curitiba
+
+- cor primária: #89c236 (verde-limão?)
+- cor secundária: #e91b20 (vermelho)
+*/
+
+/* LINKS do NAVBAR */
+.nav-item a {
+  color: #89c236;
+  border-top: 4px solid transparent;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.nav-item.active a,
+.nav-item a:hover {
+  border-top-color: #89c236;
+}
+
+/* [FIM] LINKS do NAVBAR */
+
+.navbar-toggler {
+  color: #89c236;
+}
+.navbar-toggler:active,
+.navbar-toggler:hover {
+  color: #89c236;
+  background-color: #fff;
+  border-color: #89c236;
+  box-shadow: none;
+}
+
+.call-to-action {
+  position: absolute;
+  bottom: 20%;
+  width: 100%;
+  left: 0;
+  text-align: center;
+}
+
+.btn-outline-primary {
+  color: #89c236;
+  border-color: #89c236;
+}
+
+.btn-outline-primary:hover {
+  background-color: #89c236;
+  border-color: #89c236;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.show > .btn-outline-primary.dropdown-toggle {
+  background-color: #89c236;
+  border-color: #89c236;
+}
+
+.btn-outline-primary.focus,
+.btn-outline-primary:focus,
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-outline-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(140, 204, 58, 0.5);
+}
+
+.text-primary {
+    color: #89c236 !important;
+}
+
+.text-secondary {
+    color: #e91b20 !important;
+}
+
+.bg-primary {
+    background-color: #89c236 !important;
+}
+
+.lh-1 {
+    line-height: 16px;
+}
+.lh-2 {
+    line-height: 32px;
+}
+
+.ff-boogalo {
+    font-family: "Boogaloo" !important;
+}
+
+.ff-droid {
+    font-family: "Droid Sans" !important;
+}
+
+#copyright p {
+    font-size: 12px;
+}
+
+#to-top {
+    /* position: fixed;
+    left: 16px;
+    bottom: 16px; */
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-color: #89c236;
+    background-image: url(../img/scroll-top-top.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
